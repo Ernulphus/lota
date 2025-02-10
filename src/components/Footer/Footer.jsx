@@ -1,5 +1,5 @@
 import './Footer.css';
-import { nav_links } from '../Header/Header';
+import { nav_links } from '../../constants';
 
 function Footer () {
   return (

@@ -1,15 +1,6 @@
 import './Header.css'
 import logo from './Lota Logo White.avif'
-import { Link } from 'react-router-dom';
-
-const nav_links = [
-  'Home',
-  'About',
-  'Submit/Donate',
-  'Contact Us',
-].map((link) => (
-  <Link className="header-nav-link">{link}</Link>
-))
+import { nav_links } from '../../constants';
 
 function Header() {
   return (
