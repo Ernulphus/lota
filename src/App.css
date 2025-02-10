@@ -1,5 +1,13 @@
+:root {
+  --lota_green: rgb(29,85,41);
+}
+
 .App {
   text-align: center;
+}
+
+.App * {
+  box-sizing: border-box;
 }
 
 .App-logo {
