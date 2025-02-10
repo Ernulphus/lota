@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3dvh 0;
+  /* padding: 3dvh 0; */
   --header-height: 16dvh;
   height: var(--header-height);
   position: sticky;
@@ -26,4 +26,8 @@
 
 .header-nav-link:hover {
   color: var(--lota-tan);
+}
+
+.header-wrapper img {
+  margin-left: 12.5%;
 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import adenholtz from './components/About/staffpics/adenholtz.avif';
 
 const nav_routes = {
   'Home': '/',
@@ -29,8 +30,23 @@ const history_text = (
 </p>
 )
 
+const workers = [
+  {
+    name: 'Alex Avry Denholtz',
+    pronouns: 'they/he',
+    role: 'Organizer',
+    img: adenholtz,
+    bio: (
+      <p>
+        Alex is a Master of Public Administration grad student in New York. He enjoys hosting board game nights, visiting bookstores & libraries, and walking. Their instagram is <a href='https://www.instagram.com/alexdenholtz/'>@alexdenholtz.</a>
+      </p>
+    ),
+  }
+]
+
 export {
   history_text,
   nav_routes,
   nav_links,
+  workers,
 }
