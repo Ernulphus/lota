@@ -8,6 +8,7 @@
 
 .App * {
   box-sizing: border-box;
+  font-family:serif
 }
 
 .App-logo {

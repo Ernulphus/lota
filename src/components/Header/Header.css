@@ -1,0 +1,15 @@
+.header-wrapper {
+  background-color: var(--lota_green);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3dvh 0;
+}
+
+.header-nav-link {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  font-size: larger
+}

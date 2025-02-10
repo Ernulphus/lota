@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className="home-wrapper">
-      <div>
+      <div className="home-left">
         <h1>
           Library of Trans Alexander
         </h1>
