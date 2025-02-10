@@ -1,15 +1,25 @@
 .header-wrapper {
-  background-color: var(--lota_green);
+  background-color: var(--lota-green);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding: 3dvh 0;
+  --header-height: 15dvh;
+  height: var(--header-height);
 }
 
 .header-nav-link {
   color: white;
   margin: 5px;
   text-decoration: none;
-  font-size: larger
+  font-size: larger;
+  transition: color 0.3s;
+  /* transition: transform 0.2s; */
+  transition-timing-function: var(--wiggle);
+}
+
+.header-nav-link:hover {
+  color: var(--lota-gold);
+  /* transform: translate(2px, 2px); */
 }

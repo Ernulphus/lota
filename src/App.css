@@ -1,5 +1,7 @@
 :root {
-  --lota_green: rgb(29,85,41);
+  --lota-green: rgb(29,85,41);
+  --lota-gold: #FFD700;
+  --wiggle: cubic-bezier(0.66, 0, 0.34, 1)
 }
 
 .App {

@@ -1,0 +1,13 @@
+.footer-wrapper {
+  position: absolute;
+  --footer-height: 10dvh;
+  height: var(--footer-height);
+  width: 100dvw;
+  top: calc(100dvh - var(--footer-height));
+  background-color: var(--lota-green);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
