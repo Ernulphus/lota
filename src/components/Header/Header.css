@@ -2,11 +2,17 @@
   background-color: var(--lota-green);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 3dvh 0;
   --header-height: 16dvh;
   height: var(--header-height);
+  position: sticky;
+  top: 0;
+}
+
+.header-wrapper > * {
+  margin: 0 6rem;
 }
 
 .header-nav-link {
@@ -14,12 +20,10 @@
   margin: 5px;
   text-decoration: none;
   font-size: larger;
-  transition: color 0.3s;
-  /* transition: transform 0.2s; */
+  transition: color var(--transition-duration);
   transition-timing-function: var(--wiggle);
 }
 
 .header-nav-link:hover {
-  color: var(--lota-gold);
-  /* transform: translate(2px, 2px); */
+  color: var(--lota-tan);
 }

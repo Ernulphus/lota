@@ -1,10 +1,14 @@
 .footer-wrapper {
-  position: absolute;
-  --footer-height: 10dvh;
-  height: var(--footer-height);
-  width: 100dvw;
-  top: calc(100dvh - var(--footer-height));
+  /* position: absolute;
+  top: calc(100dvh - var(--footer-height)); */
+  
+  margin-top: auto;
+
   background-color: var(--lota-green);
+  
+  --footer-height: 10dvh;
+  min-height: var(--footer-height);
+  width: 100dvw;
 
   display: flex;
   flex-direction: row;
