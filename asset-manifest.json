@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lota/static/css/main.d8b0d86c.css",
+    "main.js": "/lota/static/js/main.697e18de.js",
+    "static/js/488.e44c1609.chunk.js": "/lota/static/js/488.e44c1609.chunk.js",
+    "static/media/covers.png": "/lota/static/media/covers.4cc3d48ba68e5e1f1c2d.png",
+    "static/media/Lota Logo White.avif": "/lota/static/media/Lota Logo White.c76972ea5afaca24be7a.avif",
+    "index.html": "/lota/index.html",
+    "main.d8b0d86c.css.map": "/lota/static/css/main.d8b0d86c.css.map",
+    "main.697e18de.js.map": "/lota/static/js/main.697e18de.js.map",
+    "488.e44c1609.chunk.js.map": "/lota/static/js/488.e44c1609.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b0d86c.css",
+    "static/js/main.697e18de.js"
+  ]
+}
