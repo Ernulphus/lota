@@ -21,6 +21,7 @@
   font-size: larger;
   transition: color var(--transition-duration);
   transition-timing-function: var(--wiggle);
+  text-align: center;
 }
 
 .header-nav-link:hover {
@@ -31,8 +32,22 @@
   margin-left: 12.5%;
 }
 
+@media (min-width: 1551px) {
+  .header-nav-link {
+    margin-left: 1.5rem;
+  }
+}
+
 @media (max-width: 1550px) {
-  .header-wrapper {
+  .header-wrapper .header-nav {
     display: none;
+  }
+  
+  .header-wrapper {
+    justify-content: center;
+  }
+
+  .header-nav-link {
+    width: 25%;
   }
 }

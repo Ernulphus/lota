@@ -8,6 +8,16 @@ const nav_routes = {
   'Contact Us': 'Contact',
 };
 
+const about_subroutes = {
+  'Funding': 'Funding',
+  'Library or Archive?': 'LibraryVsArchive',
+  'Data Privacy': 'Privacy',
+};
+
+const submission_subroutes = {
+  'Oral History Project': 'OralHistory',
+};
+
 const nav_links = Object.keys(nav_routes)
 .map((link) => (
   <Link
@@ -64,9 +74,11 @@ const workers = [
 ]
 
 export {
+  about_subroutes,
   history_text,
   nav_routes,
   nav_links,
+  submission_subroutes,
   submit_donate_text,
   workers,
 }
