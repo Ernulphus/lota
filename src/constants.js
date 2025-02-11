@@ -1,32 +1,19 @@
-import { Link } from "react-router-dom";
 import adenholtz from './components/About/staffpics/adenholtz.avif';
 
 const nav_routes = {
   'Home': '/',
-  'About': 'About',
-  'Submit/Donate': 'Submissions',
+  'About': {
+    main: 'About',
+    'Funding': 'Funding',
+    'Library or Archive?': 'LibraryVsArchive',
+    'Data Privacy': 'Privacy',
+  },
+  'Submit/Donate': {
+    main: 'Submissions',
+    'Oral History Project': 'OralHistory',
+  },
   'Contact Us': 'Contact',
 };
-
-const about_subroutes = {
-  'Funding': 'Funding',
-  'Library or Archive?': 'LibraryVsArchive',
-  'Data Privacy': 'Privacy',
-};
-
-const submission_subroutes = {
-  'Oral History Project': 'OralHistory',
-};
-
-const nav_links = Object.keys(nav_routes)
-.map((link) => (
-  <Link
-    className="header-nav-link"
-    to={nav_routes[link]}
-  >
-    {link}
-  </Link>
-));
 
 const history_text = (
 <p>
@@ -74,11 +61,8 @@ const workers = [
 ]
 
 export {
-  about_subroutes,
   history_text,
   nav_routes,
-  nav_links,
-  submission_subroutes,
   submit_donate_text,
   workers,
 }

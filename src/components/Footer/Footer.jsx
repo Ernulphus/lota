@@ -1,10 +1,10 @@
+import NavBar from '../NavBar/NavBar';
 import './Footer.css';
-import { nav_links } from '../../constants';
 
 function Footer () {
   return (
     <div className='footer-wrapper'>
-      {nav_links}
+      <NavBar />
     </div>
   );
 }
