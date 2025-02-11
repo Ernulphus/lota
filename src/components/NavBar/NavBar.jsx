@@ -2,29 +2,29 @@ import { Link } from "react-router-dom";
 import { nav_routes } from '../../constants';
 import './NavBar.css';
 
+function NavBarLink ({ text, href }) {
+  return (
+    <Link
+      className="nav-link"
+      to={href}
+    >
+      {text}
+    </Link>
+  );
+}
+
 function NavBar () {
   return Object.keys(nav_routes)
     .map((link) => {
-      if (typeof nav_routes[link] == typeof '') {
-        return (
-            <Link
-              className="header-nav-link"
-              to={nav_routes[link]}
-            >
-              {link}
-            </Link>
-          )
-      }
-      else if (typeof nav_routes[link] == typeof {}) {
-        return (
-          <Link
-            className="header-nav-link"
-            to={nav_routes[link].main}
-          >
-            {link}
-          </Link>
-        )
-      }
+      return (
+        <NavBarLink
+          text={link}
+          href={((typeof nav_routes[link]) === 'string')
+            ? nav_routes[link]
+            : nav_routes[link].main}
+          key={link}
+        />
+      )
     }
   )
 }

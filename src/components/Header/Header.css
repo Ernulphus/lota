@@ -14,7 +14,7 @@
   margin: 0 6rem;
 }
 
-.header-nav-link {
+.nav-link {
   color: white;
   margin: 5px;
   text-decoration: none;
@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.header-nav-link:hover {
+.nav-link:hover {
   color: var(--lota-tan);
 }
 
@@ -33,7 +33,7 @@
 }
 
 @media (min-width: 1551px) {
-  .header-nav-link {
+  .nav-link {
     margin-left: 1.5rem;
   }
 }

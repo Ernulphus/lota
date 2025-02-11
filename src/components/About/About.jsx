@@ -32,10 +32,9 @@ function About() {
         <h1>
           History
         </h1>
-        <p>
-          {history_text}
-        </p>
+        {history_text}
       </div>
+
       <div className="staff-wrapper">
         <h1>
           Staff
@@ -48,6 +47,7 @@ function About() {
               role={role}
               img={img}
               bio={bio}
+              key={name}
             />
           ))}
         </div>

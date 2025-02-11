@@ -42,7 +42,7 @@ h2 {
   margin: 0;
 }
 
-p {
+p, ul {
   font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
   text-align: left;
 }
