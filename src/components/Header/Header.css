@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  min-height: fit-content;
   --header-height: 16dvh;
   height: var(--header-height);
   position: sticky;
@@ -14,21 +15,30 @@
   margin: 0 6rem;
 }
 
-.header-nav {
-  display: flex;
-  flex-direction: row;
-}
-
 .header-wrapper img {
   margin-left: 12.5%;
 }
 
 @media (max-width: 1550px) {
-  .header-wrapper .header-nav {
-    display: none;
+  .header-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    height: clamp(20rem, 25dvh + 1rem, 50rem);
+    max-width: 100dvw;
+    position: initial;
   }
   
-  .header-wrapper {
-    justify-content: center;
+  .header-wrapper img {
+    margin: 1rem 0;
+  }
+
+  .header-wrapper > * {
+    margin: 1rem  0;
   }
 }
+
+/* @media (max-width: 400px) {
+  .header-wrapper a {
+    font-size: small;
+  }
+} */

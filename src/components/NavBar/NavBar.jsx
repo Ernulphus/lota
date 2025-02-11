@@ -44,25 +44,31 @@ function NavBarSubLinks ({ subroutes }){
 }
   
 function NavBar () {
-  return Object.keys(nav_routes)
-    .map((link) => {
-      return (
-        <>
-          <NavBarLink
-            text={link}
-            href={typeof nav_routes[link] === 'string'
-              ? nav_routes[link]
-              : nav_routes[link].main}
-            key={link}
-          >
-            {
-              typeof nav_routes[link] === 'object'
-              && (<NavBarSubLinks subroutes={nav_routes[link]} />)
-            }
-          </NavBarLink>
-        </>
-      )
-    }
+  return (
+    <div className="nav-wrapper">
+      {
+        Object.keys(nav_routes)
+          .map((link) => {
+            return (
+              <>
+                <NavBarLink
+                  text={link}
+                  href={typeof nav_routes[link] === 'string'
+                    ? nav_routes[link]
+                    : nav_routes[link].main}
+                  key={link}
+                >
+                  {
+                    typeof nav_routes[link] === 'object'
+                    && (<NavBarSubLinks subroutes={nav_routes[link]} />)
+                  }
+                </NavBarLink>
+              </>
+            )
+          }
+        )
+      }
+    </div>
   )
 }
 

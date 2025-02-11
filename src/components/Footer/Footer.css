@@ -1,7 +1,4 @@
 .footer-wrapper {
-  /* position: absolute;
-  top: calc(100dvh - var(--footer-height)); */
-  
   margin-top: auto;
 
   background-color: var(--lota-green);
@@ -21,4 +18,10 @@
   top: -2rem;
   bottom: 1.7rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 1550px) {
+  .footer-wrapper {
+    display: none;
+  }
 }
