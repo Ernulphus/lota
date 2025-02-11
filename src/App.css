@@ -4,6 +4,9 @@
   --lota-tan: #f7eedc;
   --wiggle: cubic-bezier(0.66, 0, 0.34, 1);
   --transition-duration: 0.2s;
+
+  --h1-size: clamp(4rem, 5dvh + .5rem, 6rem);
+  --p-size: clamp(1rem, 1vw + 0.5rem, 2rem);
 }
 
 .App * {
@@ -50,4 +53,18 @@ a {
 
 br {
   margin-bottom: 2rem;
+}
+
+@media (max-width: 1550px) {
+  :root {
+    --h1-size: clamp(2rem, 3dvh + .5rem, 4rem);
+  }
+
+  app-spacer > * {
+    width: 100%
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
 }

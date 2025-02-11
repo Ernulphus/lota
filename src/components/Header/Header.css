@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* padding: 3dvh 0; */
   --header-height: 16dvh;
   height: var(--header-height);
   position: sticky;
@@ -30,4 +29,10 @@
 
 .header-wrapper img {
   margin-left: 12.5%;
+}
+
+@media (max-width: 1550px) {
+  .header-wrapper {
+    display: none;
+  }
 }
