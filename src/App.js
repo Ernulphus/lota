@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Submissions from './components/Submit_Donate/Submit';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/lota" element={<Home />} />
               <Route path="lota" element={<Home />} />
               <Route path="About" element={<About />} />
+              <Route path="Submissions" element={<Submissions />} />
               <Route path="Contact" element={<Contact />} />
             </Routes>
           </div>
