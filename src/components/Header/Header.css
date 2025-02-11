@@ -14,28 +14,13 @@
   margin: 0 6rem;
 }
 
-.nav-link {
-  color: white;
-  margin: 5px;
-  text-decoration: none;
-  font-size: larger;
-  transition: color var(--transition-duration);
-  transition-timing-function: var(--wiggle);
-  text-align: center;
-}
-
-.nav-link:hover {
-  color: var(--lota-tan);
+.header-nav {
+  display: flex;
+  flex-direction: row;
 }
 
 .header-wrapper img {
   margin-left: 12.5%;
-}
-
-@media (min-width: 1551px) {
-  .nav-link {
-    margin-left: 1.5rem;
-  }
 }
 
 @media (max-width: 1550px) {
@@ -45,9 +30,5 @@
   
   .header-wrapper {
     justify-content: center;
-  }
-
-  .header-nav-link {
-    width: 25%;
   }
 }

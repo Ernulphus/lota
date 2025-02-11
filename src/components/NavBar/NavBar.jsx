@@ -1,29 +1,66 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { nav_routes } from '../../constants';
 import './NavBar.css';
 
-function NavBarLink ({ text, href }) {
+function NavBarLink ({ text, href, children }) {
+  const [isHovering, setIsHovering] = useState(false);
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+
   return (
-    <Link
-      className="nav-link"
-      to={href}
-    >
-      {text}
-    </Link>
+    <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+      <Link
+        className="nav-link"
+        to={href}
+      >
+        {text}
+        {isHovering && children}
+      </Link>
+    </div>
   );
 }
 
+function NavBarSubLinks ({ subroutes }){
+  return (
+    <div className="nav-sub-links">
+      {
+        Object.keys(subroutes).map(( link ) => {
+          return (link !== 'main') &&
+          (
+            <Link to={subroutes[link]}>
+              {link}
+            </Link>
+          );
+        })
+      }
+    </div>
+  );
+}
+  
 function NavBar () {
   return Object.keys(nav_routes)
     .map((link) => {
       return (
-        <NavBarLink
-          text={link}
-          href={((typeof nav_routes[link]) === 'string')
-            ? nav_routes[link]
-            : nav_routes[link].main}
-          key={link}
-        />
+        <>
+          <NavBarLink
+            text={link}
+            href={typeof nav_routes[link] === 'string'
+              ? nav_routes[link]
+              : nav_routes[link].main}
+            key={link}
+          >
+            {
+              typeof nav_routes[link] === 'object'
+              && (<NavBarSubLinks subroutes={nav_routes[link]} />)
+            }
+          </NavBarLink>
+        </>
       )
     }
   )
