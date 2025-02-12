@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lota/static/css/main.1f4920eb.css",
+    "main.css": "/lota/static/css/main.1642ba0b.css",
     "main.js": "/lota/static/js/main.e17ac2e3.js",
     "static/js/488.e44c1609.chunk.js": "/lota/static/js/488.e44c1609.chunk.js",
     "static/media/adenholtz.avif": "/lota/static/media/adenholtz.974649b6df7c53fb7944.avif",
     "static/media/Lota Logo White.avif": "/lota/static/media/Lota Logo White.c76972ea5afaca24be7a.avif",
     "index.html": "/lota/index.html",
-    "main.1f4920eb.css.map": "/lota/static/css/main.1f4920eb.css.map",
+    "main.1642ba0b.css.map": "/lota/static/css/main.1642ba0b.css.map",
     "main.e17ac2e3.js.map": "/lota/static/js/main.e17ac2e3.js.map",
     "488.e44c1609.chunk.js.map": "/lota/static/js/488.e44c1609.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f4920eb.css",
+    "static/css/main.1642ba0b.css",
     "static/js/main.e17ac2e3.js"
   ]
 }
