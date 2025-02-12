@@ -6,9 +6,7 @@ function Header() {
   return (
     <div className="header-wrapper">
       <img src={logo} alt="LOTA logo" />
-      <div className="header-nav">
-        <NavBar />
-      </div>
+      <NavBar />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .nav-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-link {
@@ -59,6 +59,10 @@
   background-color: var(--lota-tan);
 }
 
+.nav-wrapper-flat {
+  display: none;
+}
+
 @media (min-width: 1551px) {
   .nav-link {
     margin-left: 1.5rem;
@@ -70,15 +74,23 @@
   .nav-link {
     padding: 1rem 0.25rem;
     margin: 0;
-    outline: 1px solid var(--lota-tan);
   }
 
   .nav-wrapper {
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+    display: none;
   }
 
-  .nav-wrapper > * {
-    margin: 1.2rem 0;
+  .nav-wrapper-flat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: visible;
+    width: 100dvw;
+  }
+
+  .nav-wrapper-flat > * {
+    margin: 1.2rem 0.5rem;
   }
 }
