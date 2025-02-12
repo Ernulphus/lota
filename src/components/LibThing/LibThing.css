@@ -35,6 +35,12 @@ div #wb8bb991bc300873716d1abf4e9e51c06 {
   top: 0 !important;
 }
 
+div#wb8bb991bc300873716d1abf4e9e51c06preload {
+  /* outline: 2px solid chartreuse; */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 
 @media (max-width: 1550px) {
   .lib-thing-widget {
