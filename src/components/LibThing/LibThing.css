@@ -1,0 +1,32 @@
+.lib-thing-widget a {
+  all: unset;
+}
+
+div #wb8bb991bc300873716d1abf4e9e51c06 {
+  width: 40dvw !important;
+  height: unset !important;
+  
+}
+
+.LT_content div {
+  /* outline: orange 1px solid; */
+  margin: 0.5rem;
+  width: 25% !important;
+}
+
+.LT_coverdisplay div{
+  aspect-ratio: 130 / 238 !important;
+  width: 100% !important;
+  height: unset !important;
+}
+
+.LT_coverdisplay img {
+  width: 80%;
+}
+
+
+@media (max-width: 1550px) {
+  .lib-thing-widget {
+    display: none;
+  }
+}
