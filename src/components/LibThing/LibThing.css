@@ -3,8 +3,10 @@
 }
 
 div #wb8bb991bc300873716d1abf4e9e51c06 {
-  width: 40dvw !important;
+  /* outline: 3px solid chartreuse; */
+  width: 60% !important;
   height: unset !important;
+  overflow: clip;
   
 }
 
@@ -14,14 +16,23 @@ div #wb8bb991bc300873716d1abf4e9e51c06 {
   width: 25% !important;
 }
 
-.LT_coverdisplay div{
-  aspect-ratio: 130 / 238 !important;
+.LT_coverdisplay {
+  /* outline: 4px solid blue; */
   width: 100% !important;
+}
+
+.LT_coverdisplay div{
+  /* outline: 2px orange solid; */
+  aspect-ratio: 130 / 238 !important;
+  width: 80% !important;
   height: unset !important;
 }
 
 .LT_coverdisplay img {
-  width: 80%;
+  /* outline: 2px solid green; */
+  width: 100%;
+  left: 0 !important;
+  top: 0 !important;
 }
 
 
