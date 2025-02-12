@@ -74,7 +74,8 @@
   }
 
   .nav-wrapper {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
   }
 
   .nav-wrapper > * {
