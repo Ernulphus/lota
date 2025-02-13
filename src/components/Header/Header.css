@@ -5,8 +5,8 @@
   justify-content: space-between;
   align-items: center;
   min-height: fit-content;
-  --header-height: 16dvh;
-  height: var(--header-height);
+  /* --header-height: 16dvh;
+  height: var(--header-height); */
   position: sticky;
   top: 0;
   z-index: 99;
@@ -24,7 +24,7 @@
   .header-wrapper {
     flex-direction: column;
     justify-content: center;
-    height: clamp(10rem, 25dvh + 1rem, 50rem);
+    /* height: clamp(10rem, 25dvh + 1rem, 50rem); */
     max-width: 100dvw;
     position: initial;
   }

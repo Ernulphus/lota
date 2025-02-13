@@ -17,13 +17,15 @@
   font-size: 1rem;
   background-color: var(--lota-green);
   color: white;
-  padding: 15px;
+  padding: 2rem;
   border-radius: 20px;
   transition:
     color var(--transition-duration),
     background-color var(--transition-duration);
   transition-timing-function: var(--wiggle);
   text-align: center;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .home-wrapper a:hover {
@@ -41,6 +43,7 @@
   }
 
   .home-wrapper img {
-    display: none
+    /* display: none */
+    margin-top: 2rem;
   }
 }
