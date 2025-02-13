@@ -46,7 +46,7 @@
   text-align: left;
 
   color: white;
-  background-color: var(--lota-green);
+  background-color: var(--lota-lime);
   text-decoration: none;
   transition: 
     color var(--transition-duration),
@@ -55,7 +55,7 @@
 }
 
 .nav-sub-links *:hover, .nav-sub-links *:active {
-  color: var(--lota-green);
+  color: var(--lota-lime);
   background-color: var(--lota-tan);
 }
 
