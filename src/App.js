@@ -9,6 +9,7 @@ import Funding from './components/Funding/Funding';
 import Contact from './components/Contact/Contact';
 import Submissions from './components/Submit_Donate/Submit';
 import LibVsArchive from './components/LibVsArchive/LibVsArchive';
+import Privacy from './components/Privacy/Privacy';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="About" element={<About />} />
               <Route path="Funding" element={<Funding />} />
               <Route path="LibraryVsArchive" element={<LibVsArchive />} />
+              <Route path="Privacy" element={<Privacy />} />
               <Route path="Submissions" element={<Submissions />} />
               <Route path="Contact" element={<Contact />} />
             </Routes>

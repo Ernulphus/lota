@@ -72,9 +72,19 @@ const funding_text = (
 
 const lib_archive_text = (
   <p>
-    Page is under construction.
+    <b>Page is under construction.</b>
     <br />
     The Library of Trans Alexander is currently only operating in the capacity of an archive. This summer, we aim to open our physical archive for circulation. You can book an appointment to view specific works in NYC by emailing <a href="mailto:libraryoftransalexander@proton.me?subject=appointment">libraryoftransalexander@proton.me.</a> 
+  </p>
+)
+
+const privacy_text = (
+  <p>
+    <b>Page is still under construction.</b>
+    <br />
+    Data privacy is at the core of our operations at LOTA. Please use an encrypted email or messaging service. Instagram and WhatsApp are not preferred. We use Proton and Signal. Interviewees are anonymized, their names are never digitally recorded unless explicitly agreed.  
+    <br />
+    Our work is conducted on a private WiFi network with a VPN, and offline whenever possible.
   </p>
 )
 
@@ -83,6 +93,7 @@ export {
   history_text,
   lib_archive_text,
   nav_routes,
+  privacy_text,
   submit_donate_text,
   workers,
 }
