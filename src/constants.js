@@ -88,11 +88,34 @@ const privacy_text = (
   </p>
 )
 
+const oral_history_text = (
+  <p>
+    <b>Page is under construction.</b>
+    <br />
+    On February 1st, 2025, the Library of Trans Alexander announced our Oral History project. In this project, interviewees' responses will be transcribed and anonymized. We will collect these interviews into a zine, to be published in the summer.
+    <br />
+    Beginning in March, we will open the project up to group discussions around certain topics.
+    <br />
+    Please send an email to libraryoftransalexander@proton.me to get involved. Please copy and paste this form. We will respond within 2 business days.
+    <br />
+    <b>Name:</b><br />
+
+    <b>Pronouns:</b><br />
+
+    <b>Instagram:</b><br />
+
+    <b>Location:</b> In-person (NYC) or virtual<br />
+
+    <b>Availability:</b> please describe your general availability or 5 dates and times<br />
+  </p>
+)
+
 export {
   funding_text,
   history_text,
   lib_archive_text,
   nav_routes,
+  oral_history_text,
   privacy_text,
   submit_donate_text,
   workers,

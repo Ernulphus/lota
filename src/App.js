@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import Submissions from './components/Submit_Donate/Submit';
 import LibVsArchive from './components/LibVsArchive/LibVsArchive';
 import Privacy from './components/Privacy/Privacy';
+import OralHistory from './components/OralHistory/OralHistory';
 
 function App() {
   return (
@@ -22,11 +23,15 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/lota" element={<Home />} />
               <Route path="lota" element={<Home />} />
+              
               <Route path="About" element={<About />} />
               <Route path="Funding" element={<Funding />} />
               <Route path="LibraryVsArchive" element={<LibVsArchive />} />
               <Route path="Privacy" element={<Privacy />} />
+
               <Route path="Submissions" element={<Submissions />} />
+              <Route path="OralHistory" element={<OralHistory />} />
+              
               <Route path="Contact" element={<Contact />} />
             </Routes>
           </div>

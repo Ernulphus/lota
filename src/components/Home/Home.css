@@ -14,11 +14,11 @@
 
 .home-wrapper a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.4rem;
   background-color: var(--lota-green);
   color: white;
   padding: 2rem;
-  border-radius: 20px;
+  border-radius: 50px;
   transition:
     color var(--transition-duration),
     background-color var(--transition-duration);
