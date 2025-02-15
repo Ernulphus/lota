@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Funding from './components/Funding/Funding';
 import Contact from './components/Contact/Contact';
 import Submissions from './components/Submit_Donate/Submit';
+import LibVsArchive from './components/LibVsArchive/LibVsArchive';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="lota" element={<Home />} />
               <Route path="About" element={<About />} />
               <Route path="Funding" element={<Funding />} />
+              <Route path="LibraryVsArchive" element={<LibVsArchive />} />
               <Route path="Submissions" element={<Submissions />} />
               <Route path="Contact" element={<Contact />} />
             </Routes>

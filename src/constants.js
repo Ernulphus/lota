@@ -70,9 +70,18 @@ const funding_text = (
   </p>
 );
 
+const lib_archive_text = (
+  <p>
+    Page is under construction.
+    <br />
+    The Library of Trans Alexander is currently only operating in the capacity of an archive. This summer, we aim to open our physical archive for circulation. You can book an appointment to view specific works in NYC by emailing <a href="mailto:libraryoftransalexander@proton.me?subject=appointment">libraryoftransalexander@proton.me.</a> 
+  </p>
+)
+
 export {
   funding_text,
   history_text,
+  lib_archive_text,
   nav_routes,
   submit_donate_text,
   workers,
