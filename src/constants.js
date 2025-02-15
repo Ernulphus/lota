@@ -60,9 +60,18 @@ const workers = [
       </p>
     ),
   }
-]
+];
+
+const funding_text = (
+  <p>
+    LOTA is predominantly self-funded; please consider donating via Venmo at @libraryoftransalexander. We are working on seeking legal non-profit status and would like to begin applying to grants this summer. 
+    <br />
+    We are working on making our budget, revenues, and expenses fully transparent and available to the public. 
+  </p>
+);
 
 export {
+  funding_text,
   history_text,
   nav_routes,
   submit_donate_text,
