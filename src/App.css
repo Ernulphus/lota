@@ -4,6 +4,7 @@
   --lota-gold: #FFD700;
   --lota-tan: #f7eedc;
   --wiggle: cubic-bezier(0.66, 0, 0.34, 1);
+  --bezier: cubic-bezier(0.66, 0, 0.34, 1);
   --transition-duration: 0.2s;
 
   --h1-size: clamp(4rem, 5dvh + .5rem, 6rem);
@@ -25,7 +26,17 @@
   width: 70%;
   margin-top: 2rem;
   margin-bottom: 3rem;
+
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: var(--bezier);
+  animation-duration: 0.6s;
 }
+/*
+See this thread for making a fade-out animation
+https://stackoverflow.com/questions/71808023/transition-between-routes-in-react-router-dom-v6-3
+*/
 
 .app-container {
   min-height: 100dvh;
@@ -72,4 +83,15 @@ br {
 
 .hidden {
   display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(0, 4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
