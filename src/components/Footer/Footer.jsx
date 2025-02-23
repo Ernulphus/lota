@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function ContactList() {
-  const contacts = (
+  const contacts = [
     {
       label: 'email',
       link: '',
@@ -26,10 +26,10 @@ function ContactList() {
       link: '',
       icon: (<img href={VenmoIcon} alt='Venmo icon' />),
     }
-  );
+  ];
   return (
     <div className="contactlist-wrapper">
-      {contacts.map(( contact ) => {
+      {contacts.map(( contact ) => (
         <Link to={contact.link}>
           {
             contact.icon
@@ -37,7 +37,7 @@ function ContactList() {
               : contact.icon
           }
         </Link>
-      })}
+      ))}
     </div>
   );
 }
