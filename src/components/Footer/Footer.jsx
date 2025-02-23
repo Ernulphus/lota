@@ -1,33 +1,42 @@
-import NavBar from '../NavBar/NavBar';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import BlueskyIcon from './bluesky-stroke-rounded.svg';
+import VenmoIcon from './icons8-venmo-50.png';
+
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function ContactList() {
-  contacts = (
+  const contacts = (
     {
       label: 'email',
       link: '',
-      icon: '',
     },
     {
       label: 'instagram',
       link: '',
-      icon: '',
+      icon: InstagramIcon,
     },
     {
       label: 'bluesky',
       link: '',
-      icon: '',
+      icon: (<img href={BlueskyIcon} alt='Blue Sky icon' />),
     },
     {
       label: 'venmo',
       link: '',
-      icon: '',
+      icon: (<img href={VenmoIcon} alt='Venmo icon' />),
     }
   );
   return (
     <div className="contactlist-wrapper">
-      {contacts.map(() => {
-        <Link to={contact.link}>contact.label</Link>
+      {contacts.map(( contact ) => {
+        <Link to={contact.link}>
+          {
+            contact.icon
+              ? contact.label
+              : contact.icon
+          }
+        </Link>
       })}
     </div>
   );
