@@ -1,6 +1,6 @@
-import InstagramIcon from '@mui/icons-material/Instagram';
-import BlueskyIcon from './bluesky-stroke-rounded.svg';
-import VenmoIcon from './icons8-venmo-50.png';
+import InstagramIcon from './ContactIcons/instagram-svgrepo-com.svg';
+import BlueskyIcon from './ContactIcons/bluesky-stroke-rounded.svg';
+import VenmoIcon from './ContactIcons/icons8-venmo-50.png';
 
 import { Link } from 'react-router-dom';
 import './Footer.css';
@@ -15,16 +15,19 @@ function ContactList() {
       label: 'instagram',
       link: '',
       icon: InstagramIcon,
+      alt: 'Instagram icon',
     },
     {
       label: 'bluesky',
       link: '',
-      icon: (<img href={BlueskyIcon} alt='Blue Sky icon' />),
+      icon: BlueskyIcon,
+      alt: 'Blue Sky icon',
     },
     {
       label: 'venmo',
       link: '',
-      icon: (<img href={VenmoIcon} alt='Venmo icon' />),
+      icon: VenmoIcon,
+      alt: 'Venmo icon',
     }
   ];
   return (
@@ -32,9 +35,9 @@ function ContactList() {
       {contacts.map(( contact ) => (
         <Link to={contact.link}>
           {
-            contact.icon
-              ? contact.label
-              : contact.icon
+            contact.icon && contact.alt
+              ? (<img src={contact.icon} alt={contact.alt}/>)
+              : (<p>{contact.label}</p>)
           }
         </Link>
       ))}
