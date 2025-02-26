@@ -20,7 +20,7 @@ function Home() {
         </Link>
       </div>
       {/* <LibThing /> */}
-      <img src={covers} alt="Six covers of books in the collection" className='home-covers' />
+      <img src={covers} alt="Eight covers of books in the collection" className='home-covers' />
     </div>
   );
 }
