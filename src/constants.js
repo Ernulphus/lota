@@ -56,7 +56,7 @@ const workers = [
     img: adenholtz,
     bio: (
       <p>
-        Avry is a Master of Public Administration grad student in New York. He enjoys hosting board game nights, visiting bookstores & libraries, and walking. Their instagram is <a href='https://www.instagram.com/alexdenholtz/'>@alexdenholtz.</a>
+        Avry is a Master of Public Administration grad student in New York. They enjoy hosting board game nights, visiting bookstores & libraries, and walking. His instagram is <a href='https://www.instagram.com/avrydenholtz/'>@avrydenholtz.</a>
       </p>
     ),
   }
