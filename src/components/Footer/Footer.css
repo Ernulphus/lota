@@ -9,7 +9,7 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   color: var(--lota-tan);
 }
@@ -36,7 +36,7 @@
 .contactlist-wrapper p {
   color: var(--lota-green);
   background-color: var(--lota-tan);
-  padding: 5px;
+  padding: 1rem;
 }
 
 .footer-wrapper .nav-sub-links {
