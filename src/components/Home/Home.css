@@ -31,7 +31,7 @@
   margin: 0 auto;
 }
 
-.home-wrapper a:hover {
+.home-wrapper .home-left a:hover {
   color: var(--lota-green);
   background-color: var(--lota-tan);
 }
