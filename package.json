@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --cname libraryoftransalexander.org",
+    "deploy": "gh-pages -d build --cname www.libraryoftransalexander.org",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
