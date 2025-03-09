@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* Making an outline: */
+  /* outline: 3px solid chartreuse; */
 }
 
 .home-left {
@@ -10,9 +12,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
 }
 
-.home-wrapper a {
+.home-wrapper .home-left a {
   text-decoration: none;
   font-size: 1.4rem;
   background-color: var(--lota-green);

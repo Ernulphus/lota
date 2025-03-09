@@ -7,6 +7,7 @@ const nav_routes = {
     'Funding': 'Funding',
     'Library or Archive?': 'LibraryVsArchive',
     'Data Privacy': 'Privacy',
+    // 'Upcoming Events': 'Events',
   },
   'Submit/Donate': {
     main: 'Submissions',
@@ -110,7 +111,24 @@ const oral_history_text = (
   </p>
 )
 
+const events_text = (
+  <p> 
+    
+
+Tempora officiis expedita rem nihil ut. Et velit vel laudantium. Architecto et qui aliquid.
+
+Doloremque accusamus vero dolorem placeat voluptatem inventore. Quis illo a ut autem rerum. Ut dolorem repellendus ab voluptatem. Saepe repudiandae sit qui. Nemo mollitia fuga recusandae.
+
+Est beatae nam laborum sed perferendis veritatis et corrupti. Consequatur facilis rerum quo. Qui veritatis voluptatum eius vero enim consectetur dolores ipsa. Sunt et ducimus impedit alias consequatur. Rerum et minima sunt repellendus sint. Impedit aut molestiae est enim voluptas aut quaerat quia.
+
+At aliquam laudantium sapiente consequuntur et placeat. Ullam quae asperiores illum in blanditiis ut laudantium. Soluta quas praesentium officiis ad sunt. Deleniti sit optio sequi. Sapiente numquam aspernatur voluptatem iure.
+
+Quas enim non nobis. Voluptatem voluptatem culpa vero et excepturi. Quis et ea sunt dicta officia. Labore culpa sit doloribus velit aut laboriosam odit. Blanditiis ex nihil qui amet exercitationem autem dolorem. Quia voluptatem aspernatur animi soluta excepturi officiis.
+
+  </p>
+)
 export {
+  events_text,
   funding_text,
   history_text,
   lib_archive_text,

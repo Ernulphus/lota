@@ -52,6 +52,8 @@ function About() {
           ))}
         </div>
       </div>
+
+      {/* Put new <div></div> here */}
     </div>
   );
 }

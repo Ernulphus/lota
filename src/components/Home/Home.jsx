@@ -20,7 +20,9 @@ function Home() {
         </Link>
       </div>
       {/* <LibThing /> */}
-      <img src={covers} alt="Eight covers of books in the collection" className='home-covers' />
+      <Link to="https://www.librarycat.org/lib/translota" target='_blank' rel="noreferrer">
+        <img src={covers} alt="Eight covers of books in the collection" className='home-covers' />
+      </Link>
     </div>
   );
 }
