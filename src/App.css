@@ -117,3 +117,7 @@ br {
     transform: translate(0);
   }
 }
+
+p {
+  margin-bottom: 20px; /* Adds 20px of space below each paragraph */
+}
