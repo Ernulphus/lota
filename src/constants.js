@@ -7,7 +7,6 @@ const nav_routes = {
     'Funding': 'Funding',
     'Library or Archive?': 'LibraryVsArchive',
     'Data Privacy': 'Privacy',
-    // 'Upcoming Events': 'Events',
   },
   'Submit/Donate': {
     main: 'Submissions',
@@ -16,11 +15,11 @@ const nav_routes = {
   'Contact Us': 'Contact',
 };
 
-const history_text = (
+ const history_text = ( 
 <p>
-  Library of Trans Alexander (LOTA) was born out of a conversation between Avry Denholtz and Rain Dove. In that conversation, they imagined an organization that could serve as a seed silo for transmasculine literature, given what was to come only a few weeks later.
+  Library of Trans Alexander (LOTA) was born out of a conversation between Alex Avry Denholtz and Rain Dove. In that conversation, they imagined an organization that could serve as a seed silo for transmasculine literature, given what was to come only a few weeks later.
   <br />
-  Avry established LOTA that same day, December 26, 2024, in Brooklyn, NY. Since its inception, LOTA has been for transmascs and by transmascs, to serve as a resource for reflection, community building, recognition, and progress.
+  Alex Avry established LOTA that same day, December 26, 2024, in Brooklyn, NY. Since its inception, LOTA has been for transmascs and by transmascs, to serve as a resource for community and reflection.
   <br />
   Similar to our namesake, Library of Alexandria, LOTA accepts any written works-- anything that could be sent on a piece of paper. Therefore, we accept zines, comics, protest materials, lyrics, and more!
   <br />
@@ -33,7 +32,7 @@ const submit_donate_text = (
     <p>
       <b>Donation:</b> literature from someone who is not the author. <br />
       <b>Submission:</b> literature from an author. <br /><br />
-      Anyone can donate to our archive! Broadly speaking, we accept any physical or digital works involving written words by a self-identified transmasculine person. For collaborative projects, we ask that at least 25% of the authors identify as transmasculine. We also accept submissions written pre-transition, for which we can remove, replace, or keep any deadnames. Please see our Data Privacy page for more information.​ You can submit via P.O. Box, e-mail, or in-person in NYC. Please copy and paste the following template into an email titled "Submission/Donation" for <a href="libraryoftransalexander@proton.me" target='_blank' rel="noreferrer" >libraryoftransalexander@proton.me.</a> You will receive an email response within 72 business hours.
+      Anyone can donate to our archive! Broadly speaking, we accept any physical or digital works involving written words by a self-identified transmasculine person. For collaborative projects, we ask that at least 25% of the authors identify as transmasculine. We also accept submissions written pre-transition, for which we can remove, replace, or keep any deadnames. Please see our Data Privacy page for more information.​ You can submit via P.O. Box, e-mail, or in-person in NYC. Please copy and paste the following template into an email titled "Submission/Donation" for <a href="libraryoftransalexander@proton.me" target='_blank' rel="noreferrer" >libraryoftransalexander@proton.me.</a> You will receive an email response within 3 business days.
       <br /><br /> 
       <b>First and Last Name:</b><br />
       <b>Pronouns:</b><br />
@@ -51,13 +50,13 @@ const submit_donate_text = (
 
 const workers = [
   {
-    name: 'Avry Denholtz',
+    name: 'Alex Avry Denholtz',
     pronouns: 'they/he',
     role: 'Organizer',
     img: adenholtz,
     bio: (
       <p>
-        Avry is a Master of Public Administration grad student in New York. They enjoy hosting board game nights, visiting bookstores & libraries, and walking. His instagram is <a href='https://www.instagram.com/avrydenholtz/'>@avrydenholtz.</a>
+        Alex Avry is a Master of Public Administration grad student in New York. They enjoy hosting board game nights, visiting bookstores & libraries, and walking. His instagram is <a href='https://www.instagram.com/alexavrydenholtz/'>@alexavrydenholtz.</a>
       </p>
     ),
   }
@@ -111,24 +110,7 @@ const oral_history_text = (
   </p>
 )
 
-const events_text = (
-  <p> 
-    
-
-Tempora officiis expedita rem nihil ut. Et velit vel laudantium. Architecto et qui aliquid.
-
-Doloremque accusamus vero dolorem placeat voluptatem inventore. Quis illo a ut autem rerum. Ut dolorem repellendus ab voluptatem. Saepe repudiandae sit qui. Nemo mollitia fuga recusandae.
-
-Est beatae nam laborum sed perferendis veritatis et corrupti. Consequatur facilis rerum quo. Qui veritatis voluptatum eius vero enim consectetur dolores ipsa. Sunt et ducimus impedit alias consequatur. Rerum et minima sunt repellendus sint. Impedit aut molestiae est enim voluptas aut quaerat quia.
-
-At aliquam laudantium sapiente consequuntur et placeat. Ullam quae asperiores illum in blanditiis ut laudantium. Soluta quas praesentium officiis ad sunt. Deleniti sit optio sequi. Sapiente numquam aspernatur voluptatem iure.
-
-Quas enim non nobis. Voluptatem voluptatem culpa vero et excepturi. Quis et ea sunt dicta officia. Labore culpa sit doloribus velit aut laboriosam odit. Blanditiis ex nihil qui amet exercitationem autem dolorem. Quia voluptatem aspernatur animi soluta excepturi officiis.
-
-  </p>
-)
 export {
-  events_text,
   funding_text,
   history_text,
   lib_archive_text,
