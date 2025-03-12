@@ -110,6 +110,10 @@ const oral_history_text = (
   </p>
 )
 
+const events_text = (
+  <p> testing </p> 
+)
+
 export {
   funding_text,
   history_text,
