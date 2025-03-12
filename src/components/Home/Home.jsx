@@ -15,7 +15,7 @@ function Home() {
         <p>
           {home_text}
         </p>
-        <Link to="https://www.librarycat.org/lib/translota" target='_blank' rel="noreferrer">
+        <Link className='button-link' to="https://www.librarycat.org/lib/translota" target='_blank' rel="noreferrer">
           Browse the Collection
         </Link>
       </div>

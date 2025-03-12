@@ -15,7 +15,7 @@
 
 }
 
-.home-wrapper .home-left a {
+/* .home-wrapper .home-left a {
   text-decoration: none;
   font-size: 1.4rem;
   background-color: var(--lota-green);
@@ -34,7 +34,7 @@
 .home-wrapper .home-left a:hover {
   color: var(--lota-green);
   background-color: var(--lota-tan);
-}
+} */
 
 @media (max-width: 1550px) {
   .home-wrapper {

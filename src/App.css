@@ -67,6 +67,28 @@ br {
   margin-bottom: 2rem;
 }
 
+.button-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  background-color: var(--lota-green);
+  color: white;
+  padding: 2rem;
+  border-radius: 50px;
+  transition:
+    color var(--transition-duration),
+    background-color var(--transition-duration);
+  transition-timing-function: var(--wiggle);
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.button-link:hover {
+  color: var(--lota-green);
+  background-color: var(--lota-tan);
+}
+
+
 @media (max-width: 1550px) {
   :root {
     --h1-size: clamp(2rem, 3dvh + .5rem, 4rem);
