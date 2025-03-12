@@ -123,4 +123,5 @@ export {
   privacy_text,
   submit_donate_text,
   workers,
+  events_text
 }
