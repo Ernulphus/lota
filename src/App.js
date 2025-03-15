@@ -11,7 +11,6 @@ import Submissions from './components/Submit_Donate/Submit';
 import LibVsArchive from './components/LibVsArchive/LibVsArchive';
 import Privacy from './components/Privacy/Privacy';
 import OralHistory from './components/OralHistory/OralHistory';
-import Events from './components/Events/Events';
 
 function App() {
   return (
@@ -34,8 +33,6 @@ function App() {
               <Route path="OralHistory" element={<OralHistory />} />
               
               <Route path="Contact" element={<Contact />} />
-
-              <Route path="Events" element={<Events />} />
 
             </Routes>
           </div>
