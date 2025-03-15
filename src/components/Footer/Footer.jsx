@@ -8,6 +8,12 @@ import './Footer.css';
 function ContactList() {
   const contacts = [
     {
+      label: 'venmo',
+      link: 'https://account.venmo.com/u/libraryoftransalexander',
+      icon: <IoLogoInstagram />,
+      alt: 'Venmo icon',
+    },
+    {
       label: 'email',
       link: 'mailto:libraryoftransalexander@proton.me',
       icon: <SiProtonmail />,
@@ -19,12 +25,6 @@ function ContactList() {
       icon: <IoLogoVenmo />,
       alt: 'Instagram icon',
     },
-    {
-      label: 'venmo',
-      link: 'https://account.venmo.com/u/libraryoftransalexander',
-      icon: <IoLogoInstagram />,
-      alt: 'Venmo icon',
-    }
   ];
   return (
     <div className="contactlist-wrapper">
@@ -49,7 +49,7 @@ function ContactList() {
 function Footer () {
   return (
     <div className='footer-wrapper'>
-      <h2>Contact us!</h2>
+      <h1>Contact us!</h1>
       <ContactList />
     </div>
   );
