@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ae78f87.css",
-    "main.js": "/static/js/main.09f9cef9.js",
+    "main.css": "/static/css/main.8af73d01.css",
+    "main.js": "/static/js/main.48b5e9a7.js",
     "static/js/488.e44c1609.chunk.js": "/static/js/488.e44c1609.chunk.js",
     "static/media/covers.png": "/static/media/covers.4cc3d48ba68e5e1f1c2d.png",
     "static/media/adenholtz.avif": "/static/media/adenholtz.974649b6df7c53fb7944.avif",
     "static/media/Lota Logo White.avif": "/static/media/Lota Logo White.c76972ea5afaca24be7a.avif",
-    "static/media/instagram-svgrepo-com.svg": "/static/media/instagram-svgrepo-com.55626a4d97d2d0c6b7202267b653f6b0.svg",
     "index.html": "/index.html",
-    "main.7ae78f87.css.map": "/static/css/main.7ae78f87.css.map",
-    "main.09f9cef9.js.map": "/static/js/main.09f9cef9.js.map",
+    "main.8af73d01.css.map": "/static/css/main.8af73d01.css.map",
+    "main.48b5e9a7.js.map": "/static/js/main.48b5e9a7.js.map",
     "488.e44c1609.chunk.js.map": "/static/js/488.e44c1609.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ae78f87.css",
-    "static/js/main.09f9cef9.js"
+    "static/css/main.8af73d01.css",
+    "static/js/main.48b5e9a7.js"
   ]
 }
