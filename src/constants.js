@@ -81,7 +81,7 @@ const lib_archive_text = (
 
 const privacy_text = (
   <p>
-    <b>Page is still under construction.</b>
+    <b>Page is under construction.</b>
     <br />
     Data privacy is at the core of our operations at LOTA. Please use an encrypted email or messaging service. Instagram and WhatsApp are not preferred. We use Proton and Signal. Interviewees are anonymized, their names are never digitally recorded unless explicitly agreed.  
     <br />
