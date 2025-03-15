@@ -19,11 +19,12 @@
 .contactlist-wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .contactlist-wrapper * {
-  margin: 0 2rem;
+  margin: 5px 2rem;
   /* outline: 1px solid orange; */
   text-decoration: none;
   border-radius: 10px;
@@ -32,7 +33,7 @@
 .contactlist-wrapper svg {
   /* filter: invert(51%) sepia(11%) saturate(2352%) hue-rotate(53deg) brightness(99%) contrast(84%); */
   filter: invert(87%) sepia(4%) saturate(1077%) hue-rotate(345deg) brightness(111%) contrast(94%);
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .contactlist-wrapper img {
@@ -42,9 +43,17 @@
 }
 
 .contactlist-wrapper p {
-  color: var(--lota-green);
-  background-color: var(--lota-tan);
-  padding: 1rem;
+  color: var(--lota-tan);
+  /* background-color: var(--lota-tan); */
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.contactlist-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* outline: 1px solid red; */
 }
 
 .footer-wrapper .nav-sub-links {

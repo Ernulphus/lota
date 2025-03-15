@@ -32,7 +32,12 @@ function ContactList() {
         <Link target='_blank' rel='noreferrer' to={contact.link}>
           {
             contact.icon && contact.alt
-              ? contact.icon
+              ? (
+                  <div className="contactlist-link">
+                    {contact.icon}
+                    <p>{contact.link}</p>
+                  </div>
+                )
               : (<p>{contact.label}</p>)
           }
         </Link>
