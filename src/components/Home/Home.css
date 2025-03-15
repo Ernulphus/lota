@@ -36,17 +36,23 @@
   background-color: var(--lota-tan);
 } */
 
-@media (max-width: 1550px) {
+@media (max-width: 1650px) {
   .home-wrapper {
     flex-direction: column;
   }
 
   .home-wrapper > * {
     width: 100%;
+    /* outline: 1px solid red; */
   }
 
   .home-wrapper img {
-    /* display: none */
-    margin-top: 2rem;
+    /* display: none; */
+    width: 60dvw;
+    margin-top: 2rem ;
+  }
+
+  .home-wrapper a {
+    text-align: center;
   }
 }

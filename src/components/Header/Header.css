@@ -18,7 +18,7 @@
   margin-left: 12.5%;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1650px) {
   .header-wrapper {
     flex-direction: column;
     justify-content: center;
