@@ -1,7 +1,7 @@
 {
   "name": "lota",
   "version": "0.1.0",
-  "homepage": "https://ernulphus.github.io/",
+  "homepage": "https://www.libraryoftransalexander.org",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.14.0",
