@@ -89,7 +89,7 @@ br {
 }
 
 
-@media (max-width: 1550px) {
+@media (max-width: 1650px) {
   :root {
     --h1-size: clamp(2rem, 3dvh + .5rem, 4rem);
   }

@@ -1,6 +1,6 @@
-import InstagramIcon from './ContactIcons/instagram-svgrepo-com.svg';
-// import BlueskyIcon from './ContactIcons/bluesky-stroke-rounded.svg';
-import VenmoIcon from './ContactIcons/icons8-venmo-50.png';
+import { IoLogoVenmo } from "react-icons/io5";
+import { IoLogoInstagram } from "react-icons/io5";
+import { SiProtonmail } from "react-icons/si";
 
 import { Link } from 'react-router-dom';
 import './Footer.css';
@@ -8,27 +8,23 @@ import './Footer.css';
 function ContactList() {
   const contacts = [
     {
+      label: 'venmo',
+      link: 'https://account.venmo.com/u/libraryoftransalexander',
+      icon: <IoLogoInstagram />,
+      alt: 'Venmo icon',
+    },
+    {
       label: 'email',
       link: 'mailto:libraryoftransalexander@proton.me',
+      icon: <SiProtonmail />,
+      alt: 'Protonmail icon',
     },
     {
       label: 'instagram',
       link: 'https://www.instagram.com/libraryoftransalexander/',
-      icon: InstagramIcon,
+      icon: <IoLogoVenmo />,
       alt: 'Instagram icon',
     },
-    // {
-    //   label: 'bluesky',
-    //   link: '',
-    //   icon: BlueskyIcon,
-    //   alt: 'Blue Sky icon',
-    // },
-    {
-      label: 'venmo',
-      link: 'https://account.venmo.com/u/libraryoftransalexander',
-      icon: VenmoIcon,
-      alt: 'Venmo icon',
-    }
   ];
   return (
     <div className="contactlist-wrapper">
@@ -36,7 +32,12 @@ function ContactList() {
         <Link target='_blank' rel='noreferrer' to={contact.link}>
           {
             contact.icon && contact.alt
-              ? (<img src={contact.icon} alt={contact.alt}/>)
+              ? (
+                  <div className="contactlist-link">
+                    {contact.icon}
+                    <p>{contact.link}</p>
+                  </div>
+                )
               : (<p>{contact.label}</p>)
           }
         </Link>
@@ -48,7 +49,7 @@ function ContactList() {
 function Footer () {
   return (
     <div className='footer-wrapper'>
-      <h2>Contact us!</h2>
+      <h1>Contact us!</h1>
       <Newsletter />
       <ContactList />
     </div>

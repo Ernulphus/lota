@@ -1,7 +1,7 @@
 {
   "name": "lota",
   "version": "0.1.0",
-  "homepage": "https://ernulphus.github.io/",
+  "homepage": "https://www.libraryoftransalexander.org",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.14.0",
@@ -12,6 +12,7 @@
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-router": "6.29.0",
     "react-router-dom": "6.29.0",
     "react-scripts": "5.0.1",
