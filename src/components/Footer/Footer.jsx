@@ -85,12 +85,12 @@ function NewsletterSignupForm() {
           name="contact[first_name]"
           type="text"/>
       </div>
-      <input
+      {/* <input
         aria-hidden="true"
         autocomplete="off"
         name="h[url]"
         novalidate=""
-      />
+      /> */}
       <div>
         <div
           class="h-captcha"
