@@ -44,6 +44,7 @@
   width: 150%;
   font-size: large;
   text-align: left;
+  z-index: 100;
 
   color: white;
   background-color: var(--lota-lime);
