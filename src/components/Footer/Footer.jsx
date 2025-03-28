@@ -62,7 +62,6 @@ function NewsletterSignupForm() {
       action="https://app.keila.io/forms/nfrm_dj3jymRJ"
       className="contact-form"
       method="post"
-      style={{background_color: '#f9fafb', color:'#111827'}}
     >
       <h1>
         Sign up for our Newsletter:
@@ -74,7 +73,6 @@ function NewsletterSignupForm() {
         <input
           id="contact_email"
           name="contact[email]"
-          style={{background_color: '#ffffff', border_color: '#6b7280', color:'#111827'}}
           type="email"
         />
       </div>
@@ -85,7 +83,6 @@ function NewsletterSignupForm() {
         <input
           id="contact_first_name"
           name="contact[first_name]"
-          style={{background_color: '#ffffff', border_color: '#6b7280', color: '#111827'}}
           type="text"/>
       </div>
       <input
@@ -93,7 +90,6 @@ function NewsletterSignupForm() {
         autocomplete="off"
         name="h[url]"
         novalidate=""
-        style={{display: 'none'}}
       />
       <div>
         <div
@@ -106,9 +102,7 @@ function NewsletterSignupForm() {
         </script>
       </div>
       <div>
-        <button class="button button--cta button--large" style={{background_color: '#047857', color: '#f9fafb'}}>
-          Submit
-        </button>
+        <input type="submit" value="Submit" className="contact-form-submit"/>
       </div>
     </form>
   );
