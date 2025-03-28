@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a14c0659.css",
-    "main.js": "/static/js/main.708cd3d4.js",
+    "main.css": "/static/css/main.ac29a2f4.css",
+    "main.js": "/static/js/main.d23a5fca.js",
     "static/js/488.e44c1609.chunk.js": "/static/js/488.e44c1609.chunk.js",
     "static/media/covers.png": "/static/media/covers.4cc3d48ba68e5e1f1c2d.png",
     "static/media/adenholtz.avif": "/static/media/adenholtz.974649b6df7c53fb7944.avif",
     "static/media/Lota Logo White.avif": "/static/media/Lota Logo White.c76972ea5afaca24be7a.avif",
     "index.html": "/index.html",
-    "main.a14c0659.css.map": "/static/css/main.a14c0659.css.map",
-    "main.708cd3d4.js.map": "/static/js/main.708cd3d4.js.map",
+    "main.ac29a2f4.css.map": "/static/css/main.ac29a2f4.css.map",
+    "main.d23a5fca.js.map": "/static/js/main.d23a5fca.js.map",
     "488.e44c1609.chunk.js.map": "/static/js/488.e44c1609.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14c0659.css",
-    "static/js/main.708cd3d4.js"
+    "static/css/main.ac29a2f4.css",
+    "static/js/main.d23a5fca.js"
   ]
 }
