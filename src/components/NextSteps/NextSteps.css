@@ -1,0 +1,36 @@
+.next-steps {
+  margin: 0;
+}
+
+.next-steps-logo-wrapper img {
+  background-color: var(--lota-lime);
+  height: 100%;
+  display: block;
+}
+
+.next-steps-body-wrapper {
+  background-color: var(--lota-green);
+  color: white
+}
+
+.next-steps-body-wrapper article {
+  background-color: var(--lota-lime);
+  padding: 5dvw;
+  padding-right: 10dvw;
+  margin-left: 20dvw;
+}
+
+div.app-spacer > * {
+  width: 100%;
+}
+
+.next-steps-footer {
+  background-color: var(--lota-tan);
+  height: 50dvh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 20dvw;
+  z-index: -1;
+}

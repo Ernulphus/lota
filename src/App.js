@@ -12,7 +12,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Privacy from './components/Privacy/Privacy';
 // import OralHistory from './components/OralHistory/OralHistory';
 
-import BackSoon from './components/BackSoon/BackSoon';
+// import BackSoon from './components/BackSoon/BackSoon';
+import NextSteps from './components/NextSteps/NextSteps';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           {/* <Header /> */}
           <div className='app-spacer'>
             <Routes>
-              <Route path="/" index element={<BackSoon />} />
+              {/* <Route path="/" index element={<BackSoon />} /> */}
+              <Route path="/" index element={<NextSteps />} />
               {/* <Route path="/" element={<Home />} />
               <Route path="/lota" element={<Home />} />
               <Route index element={<Home />} />
