@@ -19,9 +19,21 @@
   padding-right: 10dvw;
   margin-left: 20dvw;
 }
+.next-steps-body-wrapper h1 {
+  text-align: left;
+}
+
+.next-steps-body-wrapper p {
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: var(--bezier);
+  animation-duration: 0.6s;
+}
 
 div.app-spacer > * {
   width: 100%;
+  animation: none;
 }
 
 .next-steps-footer {
